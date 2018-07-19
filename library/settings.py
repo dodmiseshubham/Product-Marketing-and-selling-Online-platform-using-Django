@@ -20,8 +20,13 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+<<<<<<< HEAD
     'imartl.apps.ImartlConfig',
     'imarts.apps.ImartsConfig',
+=======
+    'student.apps.StudentConfig',
+    'librarian.apps.LibrarianConfig',
+>>>>>>> 7bf91ad4dd01dd7c7de88bf7ce9eda85ce038dd6
     #'phonenumber_field',
     'django.contrib.admin',
     'django.contrib.auth',

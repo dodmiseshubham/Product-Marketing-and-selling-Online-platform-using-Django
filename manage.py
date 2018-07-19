@@ -3,7 +3,11 @@ import os
 import sys
 
 if __name__ == "__main__":
+<<<<<<< HEAD
     os.environ.setdefault("DJANGO_SETTINGS_MODULE", "imart.settings")
+=======
+    os.environ.setdefault("DJANGO_SETTINGS_MODULE", "library.settings")
+>>>>>>> 7bf91ad4dd01dd7c7de88bf7ce9eda85ce038dd6
     try:
         from django.core.management import execute_from_command_line
     except ImportError:
